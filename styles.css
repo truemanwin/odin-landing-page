@@ -32,14 +32,13 @@ ul {
 }
 
 .hero {
-    padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     flex-basis: 28rem;
 }
 
@@ -48,13 +47,17 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-secondary {
+    margin: 0 0 0.5rem;
+}
+
 .hero-secondary, a, .placeholder {
     font: 18px Arial, sans-serif;
     color: #E5E7EB;
 }
 
 .placeholder {
-    background: gray;
+    background: rgb(114, 114, 114);
     flex-basis: 35rem;
     display: flex;
     justify-content: center;
@@ -62,7 +65,7 @@ ul {
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 0.5rem;
     width: 8rem;
     height: 2rem;
     color: #F9FAF8;
@@ -74,6 +77,55 @@ button, call-to-action {
     background: #3882F6;
 }
 
+.info {
+    text-align: center;
+    padding-bottom: 15vh;
+}
+
+.info-header {
+    font: 1000 36px Arial, sans-serif;
+    color: #1F2937;
+    padding: 3rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.info-block {
+    flex-basis: 11rem;
+    font: 18px Arial, sans-serif;
+    color: rgb(87, 87, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.illustration {
+    height: 10.5rem;
+    width: 10.5rem;
+    border: 0.3rem solid #3882F6;
+    border-radius: 1rem;
+}
+
 .quote {
     background: #E5E7EB;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font: italic 36px Arial, sans-serif;
+    width: 51rem;
+}
+
+.quote-source {
+    font: bold 1.5rem Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
 }
